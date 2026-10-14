@@ -22,7 +22,7 @@ module timing_tb;
     );
 
     always begin
-        #20 pixel_clk = ~pixel_clk;
+        #19.861 pixel_clk = ~pixel_clk;
     end
     initial begin
         $dumpfile("timing.vcd");

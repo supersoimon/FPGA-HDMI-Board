@@ -1,0 +1,136 @@
+$date
+	Tue Oct 13 09:10:28 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testpattern_tb $end
+$var wire 8 ! red [7:0] $end
+$var wire 8 " green [7:0] $end
+$var wire 8 # blue [7:0] $end
+$var reg 1 $ de $end
+$var reg 10 % horizontal_pos [9:0] $end
+$var reg 2 & testpatterninput [1:0] $end
+$var reg 10 ' vertical_pos [9:0] $end
+$scope module dut $end
+$var wire 1 $ de $end
+$var wire 10 ( horizontal_pos [9:0] $end
+$var wire 2 ) testpatterninput [1:0] $end
+$var wire 10 * vertical_pos [9:0] $end
+$var reg 8 + blue [7:0] $end
+$var reg 8 , green [7:0] $end
+$var reg 8 - red [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 -
+b0 ,
+b0 +
+b0 *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+b0 #
+b0 "
+b0 !
+$end
+#100000
+1$
+#200000
+b11111 !
+b11111 -
+b111100 '
+b111100 *
+#300000
+b111111 !
+b111111 -
+b1111000 '
+b1111000 *
+#400000
+b1011111 !
+b1011111 -
+b10110100 '
+b10110100 *
+#500000
+b1111111 !
+b1111111 -
+b11110000 '
+b11110000 *
+#600000
+b11111111 #
+b11111111 +
+b11111111 "
+b11111111 ,
+b11111111 !
+b11111111 -
+b111100 %
+b111100 (
+b1 &
+b1 )
+#700000
+b0 #
+b0 +
+b0 "
+b0 ,
+b0 !
+b0 -
+b1111000 %
+b1111000 (
+#800000
+b11111111 #
+b11111111 +
+b11111111 "
+b11111111 ,
+b11111111 !
+b11111111 -
+b10110100 %
+b10110100 (
+#900000
+b0 #
+b0 +
+b0 "
+b0 ,
+b0 !
+b0 -
+b11110000 %
+b11110000 (
+#1000000
+b11111111 #
+b11111111 +
+b111100 '
+b111100 *
+b111100 %
+b111100 (
+b10 &
+b10 )
+#1100000
+b0 #
+b0 +
+b11111111 !
+b11111111 -
+b1001011000 %
+b1001011000 (
+#1200000
+b11111111 "
+b11111111 ,
+b110100100 '
+b110100100 *
+#1300000
+b11111111 #
+b11111111 +
+b11 &
+b11 )
+b1001011000 %
+b1001011000 (
+#1400000
