@@ -25,7 +25,6 @@ module top_module (
         .CLKOS_FPHASE(0),
         .CLKOS2_ENABLE("DISABLED"),
         .CLKOS3_ENABLE("DISABLED"),
-        .CLKOUT_BYPASS("DISABLED"),
         .FEEDBK_PATH("CLKOP")
     ) pll_inst (
         .CLKI(clk),    
