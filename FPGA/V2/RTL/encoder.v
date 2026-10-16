@@ -4,8 +4,7 @@ module encoder(
     input wire [7:0] color,
     input wire de,
     input wire [1:0] control,
-    output reg [9:0] encodedcolor,
-    output reg signed [4:0] pastdisparity
+    output reg [9:0] encodedcolor
 );
     integer i;
     integer c;
@@ -16,6 +15,7 @@ module encoder(
     reg [9:0] encoded1;
     reg signed [4:0] imbalance;
     reg signed [4:0] newcount;
+    reg signed [4:0] pastdisparity;
     always @(posedge pixel_clk) begin
         count = 0;
         newcount = 0;
